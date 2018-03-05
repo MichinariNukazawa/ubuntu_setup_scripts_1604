@@ -27,5 +27,6 @@ cp -r ${SRC_DIR}/.revelation_passwd ~/
 rm -rf ~/.config/chromium
 cp -r ${SRC_DIR}/chromium ~/.config/
 rm -rf ~/.gconf/apps/revelation
-cp -r ${SRC_DIR}/revelation
+mkdir -p ~/.gconf/apps/
+cp -r ${SRC_DIR}/revelation ~/.gconf/apps/
 
