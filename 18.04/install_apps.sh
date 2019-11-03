@@ -14,6 +14,7 @@ sudo apt install \
 	git vlc synaptic gjiten \
 	gparted vim \
 	nautilus-dropbox \
+	exfat-fuse exfat-utils \
 	-y
 # skypeforlinux
 # fcitx-mozc
