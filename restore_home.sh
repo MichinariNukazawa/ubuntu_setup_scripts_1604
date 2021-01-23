@@ -22,11 +22,11 @@ rm -rf ~/.ssh
 cp -r ${SRC_DIR}/.ssh ~/
 rm -rf ~/.thunderbird
 cp -r ${SRC_DIR}/.thunderbird ~/
-rm -rf ~/.revelation_passwd
-cp -r ${SRC_DIR}/.revelation_passwd ~/
-rm -rf ~/.config/chromium
-cp -r ${SRC_DIR}/chromium ~/.config/
-rm -rf ~/.gconf/apps/revelation
-mkdir -p ~/.gconf/apps/
-cp -r ${SRC_DIR}/revelation ~/.gconf/apps/
+#rm -rf ~/.revelation_passwd
+#cp -r ${SRC_DIR}/.revelation_passwd ~/
+rm -rf ~/snap/chromium
+cp -r ${SRC_DIR}/chromium ~/snap/
+#rm -rf ~/.gconf/apps/revelation
+#mkdir -p ~/.gconf/apps/
+#cp -r ${SRC_DIR}/revelation ~/.gconf/apps/
 

@@ -48,18 +48,21 @@ _EOF_
 
 #自動起動の登録を行う
 
-AS_EXEC="rhythmbox"
+AS_NAME="rhythmbox"
+AS_EXEC="sh -c 'sleep 1 && rhythmbox' &"
 add_autostart
 AS_EXEC="chromium-browser"
 add_autostart
-AS_EXEC="firefox"
+AS_NAME="firefox"
+AS_EXEC="sh -c 'sleep 3 && firefox' &"
 add_autostart
 AS_EXEC="skypeforlinux"
 add_autostart
-AS_EXEC="thunderbird"
+AS_NAME="thunderbird"
+AS_EXEC="sh -c 'sleep 1 && thunderbird' &"
 add_autostart
 AS_NAME="terminal"
-AS_EXEC="gnome-terminal"
+AS_EXEC="sh -c 'sleep 1 && gnome-terminal' &"
 add_autostart
 AS_EXEC="gimp"
 add_autostart

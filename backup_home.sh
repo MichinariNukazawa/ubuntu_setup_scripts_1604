@@ -26,9 +26,7 @@ pushd ${SRC_HOME}
 cp -r .mozilla ${DST_DIR}
 cp -r .ssh ${DST_DIR}
 cp -r .thunderbird ${DST_DIR}
-cp -r .revelation_passwd ${DST_DIR}
-cp -r .config/chromium/ ${DST_DIR}
-cp -r .gconf/apps/revelation ${DST_DIR}
+cp -r snap/chromium/ ${DST_DIR}
 
 cp -r .bashrc ${DST_DIR}/sys
 cp -r .vimrc ${DST_DIR}/sys
