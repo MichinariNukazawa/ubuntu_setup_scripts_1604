@@ -18,7 +18,7 @@ set +e
 #rmdir ミュージック
 #rmdir 公開
 
-rmdir ~/Desktop
+#rmdir ~/Desktop
 rmdir ~/Documents
 #rmdir ~/Downloads
 rmdir ~/Music

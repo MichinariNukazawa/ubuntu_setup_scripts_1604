@@ -35,7 +35,7 @@ cp -r .bash_history ${DST_DIR}/sys/bash_history
 
 cp -r ../../etc/fstab ${DST_DIR}/sys/
 cp -r ../../etc/mdadm/mdadm.conf ${DST_DIR}/sys/
-cp -r ../../etc/samba/smb.conf ${DST_DIR}/sys/
+#cp -r ../../etc/samba/smb.conf ${DST_DIR}/sys/
 
 popd
 

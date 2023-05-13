@@ -56,7 +56,7 @@ add_autostart
 AS_NAME="firefox"
 AS_EXEC="sh -c 'sleep 3 && firefox' &"
 add_autostart
-AS_EXEC="skypeforlinux"
+AS_EXEC="sh -c 'sleep 1 && skypeforlinux' &"
 add_autostart
 AS_NAME="thunderbird"
 AS_EXEC="sh -c 'sleep 1 && thunderbird' &"
